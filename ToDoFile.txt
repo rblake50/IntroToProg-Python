@@ -1,0 +1,3 @@
+mowing, 6
+shoveling, 10
+cleaning room, 10
