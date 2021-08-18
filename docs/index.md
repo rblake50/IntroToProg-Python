@@ -11,6 +11,7 @@ Welcome to my IT FDN 100 page!
 |HW01|*Need to link*|To do|
 ***
 ## Module07 Learnings
+[Pickling overview](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)
 [Pickling tips](https://www.afternerd.com/blog/python-pickle/)
 <br>All pickling requires the pickle library to be imported.
 ```python
