@@ -1,4 +1,5 @@
 Welcome to my IT FDN 100 page!
+<br>See the markdown on [index.md](https://github.com/rblake50/IntroToProg-Python/blob/main/docs/index.md)
 # Homework Links
 |Homework|Link|Uploaded|
 |---|---|---|
