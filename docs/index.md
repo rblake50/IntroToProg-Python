@@ -3,7 +3,7 @@ Welcome to my IT FDN 100 page!
 # Homework Links
 |Homework|Link|Uploaded|
 |---|---|---|
-|HW07|*Need to link*|To do|
+|HW07|[Link to HW07 files](https://github.com/rblake50/IntroToProg-Python/tree/main/HW07)|08/23/2021|
 |HW06|[Link to HW06 files](https://github.com/rblake50/IntroToProg-Python/tree/main/HW06)|08/15/2021|
 |HW05|*Need to link*|To do|
 |HW04|*Need to link*|To do|
