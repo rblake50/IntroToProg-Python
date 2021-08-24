@@ -22,6 +22,7 @@ The following online resources were found to be helpful:
 
 * [Pickle in Python: Object Serialization](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)
 * [What is Pickling in Python?](https://www.afternerd.com/blog/python-pickle/)
+
 All pickling requires the pickle library to be imported.
 ```python
 import pickle
