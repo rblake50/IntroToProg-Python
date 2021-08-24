@@ -13,9 +13,16 @@ Welcome to my IT FDN 100 page!
 ***
 ## Module07 Learnings
 ***
-[Pickling overview](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)
-<br>[Pickling tips](https://www.afternerd.com/blog/python-pickle/)
-<br>All pickling requires the pickle library to be imported.
+### Pickling
+At this point in the course, we have learned how to perform basic operations with Python and deal with data collections like tuples, lists, and dictionaries within the Python development environment and simple text files. While this approach offers near-infinite possibilities for user design and data saving, there is a more effective way to save objects with information compared to simple text files. The technique is known as “pickling.”
+
+The textbook provides an excellent definition, copied here for reference: “Pickling means to preserve—and that’s just what it means in Python. You can pickle a complex piece of data, like a list or dictionary, and save it in its entirety to a file. Best of all, your hands won’t smell like vinegar when you’re done.” The technique can avoid some common hassles related to simple text interpretation such as if delimiting or formatting conventions change throughout a document.
+
+The following online resources were found to be helpful:
+
+* [Pickle in Python: Object Serialization](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)
+* [What is Pickling in Python?](https://www.afternerd.com/blog/python-pickle/)
+All pickling requires the pickle library to be imported.
 ```python
 import pickle
 ```
@@ -31,6 +38,35 @@ Data can be written using `dump()`.
 with open(strFileToSave,'wb') as file:
   pickle.dump(someData,file)
 ```
+***
+### Error Handling
+Error handling is another valuable function within Python. Basic error handling can be wrapped into a straightforward block of (pseudo)code:
+
+```python
+try:
+  some_action
+except:
+	print(“Custom error message”)
+else:
+	next_action # if there is no error
+finally:
+  another_action # in success or error case
+```
+While Python has default error messaging, it is designed for developers and not users. Adding custom error handling can improve user experience and clarify errors, especially regarding user input.
+
+The except block offers a few added tricks for error handling. One involves the interpretation of different error codes.
+```python
+try:
+  some_action
+except ValueError:
+	print(“You have a value error!”)
+except IOError as e:
+	print(“You have an IO error!”)
+	print(e) # Default Python error message for IOError
+else:
+	next_action
+```
+As shown, specific errors can be addressed, and the default error handling can even be captured for controlled usage.
 ***
 ## Module06 Website
 ***
