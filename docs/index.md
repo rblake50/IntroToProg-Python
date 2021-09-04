@@ -13,7 +13,18 @@ Welcome to my IT FDN 100 page!
 |HW01|*Need to link*|To do|
 ***
 # Module08 Learnings
-TBD
+Constructors are useful for initiating new objects.
+```python
+class Product:
+  def __init__(self,param1,param2):
+    print("You created a new Product object!")
+    self.name = param1
+    self.price = param2
+
+  def __str__(self):
+    str = "The " + self.name + " Product has a price of " + self.price
+    return str
+```
 
 # Module07 Learnings
 ## Pickling
