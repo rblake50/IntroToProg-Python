@@ -3,6 +3,7 @@ Welcome to my IT FDN 100 page!
 # Homework Links
 |Homework|Link|Uploaded|
 |---|---|---|
+|HW08|[Link to HW08 files](https://github.com/rblake50/IntroToProg-Python/tree/main/HW08)|TBD|
 |HW07|[Link to HW07 files](https://github.com/rblake50/IntroToProg-Python/tree/main/HW07)|08/23/2021|
 |HW06|[Link to HW06 files](https://github.com/rblake50/IntroToProg-Python/tree/main/HW06)|08/15/2021|
 |HW05|*Need to link*|To do|
@@ -11,9 +12,11 @@ Welcome to my IT FDN 100 page!
 |HW02|*Need to link*|To do|
 |HW01|*Need to link*|To do|
 ***
-## Module07 Learnings
-***
-### Pickling
+# Module08 Learnings
+TBD
+
+# Module07 Learnings
+## Pickling
 At this point in the course, we have learned how to perform basic operations with Python and deal with data collections like tuples, lists, and dictionaries within the Python development environment and simple text files. While this approach offers near-infinite possibilities for user design and data saving, there is a more effective way to save objects with information compared to simple text files. The technique is known as “pickling.”
 
 The textbook provides an excellent definition, copied here for reference: “Pickling means to preserve—and that’s just what it means in Python. You can pickle a complex piece of data, like a list or dictionary, and save it in its entirety to a file. Best of all, your hands won’t smell like vinegar when you’re done.” The technique can avoid some common hassles related to simple text interpretation such as if delimiting or formatting conventions change throughout a document.
@@ -40,7 +43,7 @@ with open(strFileToSave,'wb') as file:
   pickle.dump(someData,file)
 ```
 ***
-### Error Handling
+## Error Handling
 Error handling is another valuable function within Python. Basic error handling can be wrapped into a straightforward block of (pseudo)code:
 
 ```python
@@ -69,7 +72,6 @@ else:
 ```
 As shown, specific errors can be addressed, and the default error handling can even be captured for controlled usage.
 ***
-## Module06 Website
-***
+# Module06 Website
 [Google Homepage](https://www.google.com "Google's Homepage")
 <br>[GitHub Webpage Code CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
