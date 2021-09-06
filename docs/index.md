@@ -13,6 +13,19 @@ Welcome to my IT FDN 100 page!
 |HW01|*Need to link*|To do|
 ***
 # Module08 Learnings
+Classes may follow a general outline:
+```python
+# -- Fields --
+# These are the data members of a Class
+# -- Constructor --
+# These are special methods (functions) that run when you create an Object from the Class
+#	-- Attributes --
+#	These hold internal data
+# -- Properties
+# These manage field or attribute data.
+# -- Methods
+```
+
 Constructors are useful for initiating new objects.
 ```python
 class Product:
